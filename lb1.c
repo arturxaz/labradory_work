@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
  double calculate_error(double angle) {
     double approx_sin = angle - angle*angle*angle/6 + angle*angle*angle*angle*angle/120;
